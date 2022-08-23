@@ -1,3 +1,18 @@
+#txt{
+  color:#ff0844;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  font-size:45px;
+  align-items: center;
+}
+#text{
+  color:whitesmoke;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  font-size:25px;
+  position:relative;
+  text-align:justify;
+}
 * {
  
     box-sizing: border-box;
@@ -238,8 +253,9 @@
   .main__content {
     color: #fff;
     width: 100%;
-    position:relative;
-    top:65%;
+    position:absolute;
+    top:70%;
+    left: 33%;
   
    
   }
@@ -274,7 +290,7 @@
   }
   
   .main__btn {
-    font-size: 1rem;
+    font-size: 2rem;
     background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
     padding: 14px 32px;
     border: none;
@@ -282,9 +298,10 @@
     color: #fff;
     margin-top: 2rem;
     cursor: pointer;
-    position: relative;
+    position:absolute;
     transition: all 0.35s;
     outline: none;
+    right: 77%;
   }
   
   .main__btn a {
@@ -321,6 +338,7 @@
   #main__img {
     height: 80%;
     width: 80%;
+    
   }
   
   /* Mobile Responsive */
@@ -908,7 +926,7 @@ display: inline-block;
         rgba(0, 0, 0, 0) 0%,
         rgba(17, 17, 17, 0.9) 100%
       ),
-      url('/images/falafel.jpg');
+      url('images/falafel.jpg');
   }
 
   .services__card h2 {
