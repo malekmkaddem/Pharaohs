@@ -1,5 +1,5 @@
 #txt{
-  color:#ff0844;
+  color:white;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: oblique;
   font-size:45px;
@@ -17,6 +17,24 @@
 #eatquick{
   padding-right: 50%;
 }
+
+#aboutUs{
+  color:whitesmoke;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  font-size:30px;
+  align-items: center;
+}
+#aboutUsTxt{
+  color:whitesmoke;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  font-size:25px;
+  position:relative;
+  padding-left: 5px;
+
+}
+
 * {
  
  
@@ -405,10 +423,7 @@
       font-size: 1.5rem;
     }
   
-    .main__btn {
-      padding: 12px 36px;
-      margin: 2.5rem 0;
-    }
+    
   }
   
   /* Services Section PC Screen*/
@@ -792,7 +807,8 @@ display: inline-block;
     
   }
   
-  .services h1 {
+  .services h2 {
+    
     justify-self: center;
       width: 100%;
       margin: 0 auto;
@@ -940,14 +956,14 @@ display: inline-block;
 
   .services__card h2 {
     position: absolute;
-    top: 350px;
-    left: 30px;
+    top: 275px;
+    left: 20px;
   }
   
   .services__card p {
     position: absolute;
-    top: 400px;
-    left: 30px;
+    top: 320px;
+    left: 20px;
   }
   
   .services__card button {
@@ -958,8 +974,8 @@ display: inline-block;
     border-radius: 4px;
     background: #f77062;
     position: absolute;
-    top: 440px;
-    left: 30px;
+    top: 370px;
+    left: 22px;
     font-size: 1rem;
   }
   
@@ -998,7 +1014,7 @@ display: inline-block;
   }
 
   #txt{
-    color:#ff0844;
+    color:whitesmoke;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: oblique;
     font-size:30px;
@@ -1027,16 +1043,45 @@ display: inline-block;
   transition: all 0.35s;
   outline: none;
   padding-left: -2%;
-left: 46%;
+left: 44%;
   
+
+ /* padding: 12px 36px;
+  margin: 2.5rem 0;
+*/
+
   
 }
 #eatquick{
   padding-right: 10%;
   padding-left: 35%;
   padding-top: 60%;
-color:firebrick;
+color:whitesmoke;
 display: none;
+}
+
+#aboutUs{
+  color:whitesmoke;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  font-size:30px;
+  align-items: center;
+}
+#aboutUsTxt{
+  color:whitesmoke;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  font-size:25px;
+  position:relative;
+  padding-left: 5px;
+
+}
+#EveryonesFavorites{
+  color:whitesmoke;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  font-size:30px;
+  align-items: center;
 }
 
 }
