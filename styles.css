@@ -790,7 +790,7 @@ display: inline-block;
 
   /*Mobile Version 2.0*/
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 900px) {
   .services {
     
       grid-template-columns: auto;
@@ -1043,13 +1043,12 @@ display: inline-block;
   border: none;
   border-radius: 4px;
   color: #fff;
-  margin-top: 15rem;
   cursor: pointer;
   position:absolute;
   transition: all 0.35s;
   outline: none;
-  top:37px;
-  left: 150px;
+  top:0;
+  left: 0;
  
   
 
