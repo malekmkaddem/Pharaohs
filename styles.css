@@ -1050,8 +1050,8 @@ display: inline-block;
   position:absolute;
   transition: all 0.35s;
   outline: none;
-  top: 0%;
-  left: 0%;
+  top: 220px;
+  left: 185px;
   opacity: 75%;
   
 }
