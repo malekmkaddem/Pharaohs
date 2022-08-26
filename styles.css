@@ -256,6 +256,7 @@
   /* Main Content CSS */
   .main {
     background-color: #141414;
+    position: relative;
   }
   
   .main__container {
@@ -271,6 +272,7 @@
     max-width: 1300px;
     padding-right: 50px;
     padding-left: 50px;
+    position: relative;
   }
   
   .main__content {
@@ -1047,15 +1049,9 @@ display: inline-block;
   position:absolute;
   transition: all 0.35s;
   outline: none;
-  top:0;
-  left: 0;
- 
-  
-
- /* padding: 12px 36px;
-  margin: 2.5rem 0;
-*/
-
+  top: 66%;
+  left: 32%;
+  opacity: 75%;
   
 }
 #eatquick{
