@@ -842,7 +842,7 @@ display: inline-block;
   #services__card1 {
 display: inline-block;
    grid-area: foul;
-   
+   margin:5rem;
    height: 425px;
    width: 100%;
    max-width: 410px;
@@ -861,7 +861,7 @@ display: inline-block;
 
   #services__card2 {
     display: inline-block;
-    
+    margin: 5rem;
     grid-area: hawawchi;
     height: 425px;
     width: 100%;
@@ -880,7 +880,7 @@ display: inline-block;
 
   #services__card3 {
     display: inline-block;
-    
+    margin: 4rem;
     grid-area: falafel;
     height: 425px;
     width: 100%;
@@ -899,7 +899,7 @@ display: inline-block;
    
   #services__card4 {
     display: inline-block;
-    
+    margin: 4rem;
     grid-area: kochari;
     height: 425px;
     max-height: 425px;
@@ -919,7 +919,7 @@ display: inline-block;
 
   #services__card5 {
     display: inline-block;
-   
+    margin: 5rem;
     grid-area: hawawshi;
     height: 425px;
     max-height: 425px;
