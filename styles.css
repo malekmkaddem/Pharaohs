@@ -839,12 +839,13 @@ display: inline-block;
     justify-content: center;
    
    
+   
   }
   
   #services__card1 {
-display: inline-block;
+display:inline-block;
    grid-area: foul;
-   margin:2rem;
+  
    height: 425px;
    width: 100%;
    max-width: 410px;
@@ -857,8 +858,11 @@ display: inline-block;
       ),
       url('images/Foul.jpg');
     background-size: cover;
-    position: relative;
+    position:relative;
+    left: -1.15%;
     color: #fff;
+   
+    
   }
 
   #services__card2 {
@@ -877,11 +881,13 @@ display: inline-block;
       url('images/hawawshi.jpg');
     background-size: cover;
     position: relative;
+    left: -1.15%;
     color: #fff;
+   
   }
 
   #services__card3 {
-    display: inline-block;
+    display:inline-block;
     margin: 3rem;
     grid-area: falafel;
     height: 425px;
@@ -896,7 +902,9 @@ display: inline-block;
       url('images/falafel.jpg');
     background-size: cover;
     position: relative;
+    left: -1.15%;
     color: #fff;
+    
   }
    
   #services__card4 {
@@ -916,7 +924,9 @@ display: inline-block;
       url('images/kochari.jpg');
     background-size: cover;
     position: relative;
+    left: -1.15%;
     color: #fff;
+    
   }
 
   #services__card5 {
@@ -936,6 +946,7 @@ display: inline-block;
       url('images/hawawshi.jpg');
     background-size: cover;
     position: relative;
+    left: -1.15%;
     color: #fff;
   }
  
