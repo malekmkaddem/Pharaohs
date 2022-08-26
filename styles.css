@@ -998,6 +998,7 @@ display: inline-block;
 
   /*Header Video */
   .wrapper{
+    position: relative;
     width: 100%;
     height: auto;
     overflow: hidden;
@@ -1049,8 +1050,8 @@ display: inline-block;
   position:absolute;
   transition: all 0.35s;
   outline: none;
-  top: 16%;
-  left: 32%;
+  top: 0%;
+  left: 0%;
   opacity: 75%;
   
 }
